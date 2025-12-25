@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --birucerah: rgb(120, 121, 231);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 200px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(215, 228, 248, 0.2));
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(224, 224, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(82, 137, 255);
+}
+
+.logo {
+    color: rgb(169, 169, 255);
+}
+
+.logo small {
+    color: rgb(34, 32, 146);
+}
+
+.hero {
+    background: linear-gradient(0deg, rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.1)), url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 200px 0;
+}
+
+.container-judul {
+    text-align: center;
+    color: white;
+}
+
+.container-judul h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: white;
+}
+
+.container-judul p {
+  font-size: 1.2rem;
+  color: aqua;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.btn a {
+    width: 80px;
+    background: linear-gradient(0deg, rgba(0, 0, 255, 0.144), rgba(0, 255, 255, 0.178));
+    padding: 24px 24px;
+    text-decoration: none;
+    border-radius: 100px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn a:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 255, 0.7), rgba(0, 255, 255, 0.7));
+}
+
+.container-awal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 50px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    color: blue;
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #ff3385;
+}
+
+.card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.card p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    opacity: 0.8;
+}
+
+.tentang {
+    padding: 80px 10%;
+    background: linear-gradient(0deg, aqua, blue);
+    color: white;
+    height: 400px;
+}
+
+.container-about {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about {
+    flex: 1.5;
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin: 20px 0;
+}
+
+.nama {
+    color: aqua;
+}
+
+.about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+footer {
+    background: linear-gradient(0deg , blue, rgb(80, 77, 255));
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h1 {
+    color: white;
+    font-size: 14px;
+}
