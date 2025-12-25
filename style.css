@@ -6,10 +6,6 @@
     scroll-behavior: smooth;
 }
 
-:root {
-    --birucerah: rgb(120, 121, 231);
-}
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -180,3 +176,4 @@ footer h1 {
     color: white;
     font-size: 14px;
 }
+
